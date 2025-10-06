@@ -7,11 +7,18 @@ const ROOT_URL =
  *
  * @see {@link https://miniapps.farcaster.xyz/docs/guides/publishing}
  */
-export const minikitConfig = {
-  "accountAssociation": {
-    "header": "eyJmaWQiOjI5OTM2NiwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDdiMEUxODM3NGI2YjhkOGEzNmFiQ0FmNEQzYjdENEEyN0UxNDdkNjgifQ",
-    "payload": "eyJkb21haW4iOiJiZW4tbWluaS1hcHAtcXVpY2tzdGFydC52ZXJjZWwuYXBwIn0",
-    "signature": "MHg4MjE2NWUyOTFkNjhiMTQwMGVjNDFjYzMzZTA2ODM5MDVhOGFlNzgyMzQ1MWE2NWNkMWE4Y2QxODFmMDNiNWJmNmMxNzUxMjIyYmM0NGVmMTM4MmQyMTE1OGNmODYzM2MzM2QzODlhZjVmYTYwOGJiYzU3MDc5MGQ5ZjMyYzBiODFi"
+export const minikitConfig = export const miniappConfig = {
+  accountAssociation: {
+    header: "eyJmaWQiOjI5OTM2NiwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDdiMEUxODM3NGI2YjhkOGEzNmFiQ0FmNEQzYjdENEEyN0UxNDdkNjgifQ",
+    payload: "eyJkb21haW4iOiJib3NzLW1pbmktYXBwLXF1aWNrc3RhcnQudmVyY2VsLmFwcCJ9",
+    signature: "MHhlZGJjNjhjNWE1ZWYzMjkyMjA1YTEwMjMwOWJiYjM1YWFhZThhMDBiZDdhM2MyMjAyZDQ2NGIzMjc0ZjRhNDNjMDhlNTFkMTRhMjJjZmNmZTgyYjEyNzZlNTkzNGNjZWYzN2UxOTAyNDEwOGE5Yjg4YWI4ZjA4NzNiZWU1MWQ4ZTFj"
+  },
+  miniapp: {
+    version: 1,
+    title: "Boss Mini App",
+    subtitle: "Quickstart example",
+    heroImageUrl: ${process.env.NEXT_PUBLIC_URL}/blue-hero.png,
+    // dll...
   }
 }
   miniapp: {
