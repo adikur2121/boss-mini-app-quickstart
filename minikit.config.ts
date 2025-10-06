@@ -8,11 +8,12 @@ const ROOT_URL =
  * @see {@link https://miniapps.farcaster.xyz/docs/guides/publishing}
  */
 export const minikitConfig = {
-  accountAssociation: {
-    header: "",
-    payload: "",
-    signature: ""
-  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjI5OTM2NiwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDdiMEUxODM3NGI2YjhkOGEzNmFiQ0FmNEQzYjdENEEyN0UxNDdkNjgifQ",
+    "payload": "eyJkb21haW4iOiJiZW4tbWluaS1hcHAtcXVpY2tzdGFydC52ZXJjZWwuYXBwIn0",
+    "signature": "MHg4MjE2NWUyOTFkNjhiMTQwMGVjNDFjYzMzZTA2ODM5MDVhOGFlNzgyMzQ1MWE2NWNkMWE4Y2QxODFmMDNiNWJmNmMxNzUxMjIyYmM0NGVmMTM4MmQyMTE1OGNmODYzM2MzM2QzODlhZjVmYTYwOGJiYzU3MDc5MGQ5ZjMyYzBiODFi"
+  }
+}
   miniapp: {
     version: "1",
     name: "Cubey", 
